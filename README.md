@@ -17,3 +17,13 @@ ASP.NET Core Web API CRUD with Angular 11. Prerequisites:
 2. Create ApplicationDbContext class
 3. Add connection string to appsettings.json
 4. Use dependency injection to add db context to startup.cs
+
+To Install angular 11
+1) Install node js and npm. Check version using node -v and npm -v
+2) Run npm install -g @angular/cli
+3) Create a new project ng new PaymentApp
+4) In cmd go to the folder and type code . to open the folder in vs code
+
+Angular Project Files
+Create a component using ng g c payment-details
+Inside that create a child component ng g c payment-details/payment-detail-form
