@@ -25,5 +25,5 @@ To Install angular 11
 4) In cmd go to the folder and type code . to open the folder in vs code
 
 Angular Project Files
-Create a component using ng g c payment-details
-Inside that create a child component ng g c payment-details/payment-detail-form
+  1. Create a component using ng g c payment-details
+  2. Inside that create a child component ng g c payment-details/payment-detail-form
