@@ -27,3 +27,4 @@ To Install angular 11
 Angular Project Files
   1. Create a component using ng g c payment-details
   2. Inside that create a child component ng g c payment-details/payment-detail-form
+  3. Create a shared folder and inside that we create service and model files ng g s shared/payment-detail-service and ng g class shared/payment-detail --type=model
