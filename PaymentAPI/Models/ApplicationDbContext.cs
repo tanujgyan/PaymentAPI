@@ -9,6 +9,7 @@ namespace PaymentAPI.Models
     public class ApplicationDbContext:DbContext
     {
         public DbSet<PaymentDetail> PaymentDetails { get; set; }
+        public DbSet<VideoGame> VideoGames { get; set; }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
         {
 
